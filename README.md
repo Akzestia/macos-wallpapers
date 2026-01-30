@@ -4,6 +4,21 @@ A small cli app that allows you to set custom wallpapers on macos
 
 <img width="3440" height="1440" alt="image" src="https://github.com/user-attachments/assets/5c073f61-5b1e-493e-9cfa-cbe4adcc85ff" />
 
+# Install
+
+```sh
+# clone the repo
+git clone https://github.com/Akzestia/macos-wallpapers.git
+cd macos-wallpapers
+
+# build
+cmake -S . -B build -G Ninja
+ninja -C build
+
+# install
+cmake --install build
+```
+
 # Usage 
 
 ```sh
